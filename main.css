@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: grey;
 }
 
 ul {
@@ -25,4 +25,39 @@ li a {
 li a:hover {
   background-color: lightgrey;
   color: purple;
+}
+
+section {
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.section-1 {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+article {
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+  text-align: center;
 }
