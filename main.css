@@ -37,11 +37,14 @@ section {
   font-weight: bold;
 }
 
-article {
+/* article {
   display: flex;
   flex-flow: row wrap;
   width: 400px;
-}
+} */
+
+
+/* THIS IS THE DROID CARD CONTAINER */
 
 .card-container {
   display: flex;
@@ -55,9 +58,33 @@ article {
 }
 
 .card img {
-  height: 400px;
+  height: 300px;
 }
 
 .card h2 {
   text-align: center;
+  background: white;
+}
+
+
+/* THIS IS THE PEOPLE CONTAINER */
+
+.card-container-people {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+}
+
+.card-people {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.card-people img {
+  height: 400px;
+}
+
+.card-people h2 {
+  text-align: center;
+  background: white;
 }
